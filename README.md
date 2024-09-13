@@ -20,7 +20,6 @@
     - [Class #12: Final project presentations](#12)
 - [Intended Learning Outcomes](#intended-learning-outcomes)
 - [Course prerequisites](#course-prerequisites)
-
 - [Course navigation](#course-navigation)
 - [Assessment criteria](#assessment-criteria)
 - [Final project description](#approximate-final-project-description)
