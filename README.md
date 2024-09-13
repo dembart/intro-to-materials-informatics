@@ -4,6 +4,7 @@
 ## Contents
 - [About](#about)
 - [Timeline](#timeline-and-location)
+- [Schedule](#approximate-schedule)
 - [Classes](#classes)
     - [Class #1: What is materials informatics + Python crash course](#1)
     - [Class #2: Python libraries for atomistic modelling of materials](#2)
@@ -19,7 +20,7 @@
     - [Class #12: Final project presentations](#12)
 - [Intended Learning Outcomes](#intended-learning-outcomes)
 - [Course prerequisites](#course-prerequisites)
-- [Schedule](#approximate-schedule)
+
 - [Course navigation](#course-navigation)
 - [Assessment criteria](#assessment-criteria)
 - [Final project description](#approximate-final-project-description)
@@ -36,6 +37,28 @@ It is expected that students will better understand the concepts through learnin
 ## Timeline and location
 
 Term 1B, Sept. 30 - Oct. 25, MON THU FRI 16:00-19:00 
+
+
+## (Approximate) Schedule: 
+
+* Week #1 (easy)
+    * What is materials informatics? 
+    * Python for atomistic modeling of materials
+    * Data in materials science
+* Week #2 (medium)
+    * Exploratory data analysis
+    * Classical ML for materials science pt.1
+    * Classical ML for materials science pt.2
+* Week #3 (hard)
+    * Graph neural networks for materials science pt.1
+    * Graph neural networks for materials science pt.2
+    * Machine learning for molecular simulation
+* Week #4 (easy)
+    * Working on final projects in class
+    * Selected topics of materials informatics
+    * Final projects presentation
+
+
 
 ## Classes
 
@@ -65,7 +88,7 @@ On completion of the course you will be able to:
 
 - Critically evaluate materials informatics literature
 
-- Analyse the collected/generated materials science data sets to summarise thier main characteristics
+- Collect, generate and analyse materials science datasets, including identification of structure-property relationships
 
 
 
@@ -74,26 +97,6 @@ On completion of the course you will be able to:
 * computational materials science track
 * basic knowledge of materials modeling, python (numpy, pandas), crystal chemistry, linear algebra
 * laptop
-
-## (Approximate) Schedule: 
-
-* Week #1 (easy)
-    * What is materials informatics? 
-    * Python for atomistic modeling of materials
-    * Data in materials science
-* Week #2 (medium)
-    * Data visualization and fitting
-    * Classical ML in materials science pt.1
-    * Classical ML in materials science pt.2
-* Week #3 (hard)
-    * Graph neural networks in materials science pt.1
-    * Graph neural networks in materials science pt.2
-    * Machine learning for molecular simulation
-* Week #4 (easy)
-    * Working on final projects in class
-    * Selected topics of materials informatics
-    * Final projects presentation
-
 
 
 ## Course navigation
@@ -111,10 +114,8 @@ This github repo contains most of the course content. Quizzes and homeworks will
 * Peer reviews  10 %
 
 
-## (Approximate) Final project description
+## (Example) Final project description
 The task is to carry out a 'small' high throughput screening of solid state electrolytes conducting a given ion (Li+, Na+, K+ etc) using data driven techniques and tools covered (or beyond) during the course.
-
-Example.
 
 * Given a set of chemical elements
 * Formulate selection criteria for high-throughput screening of solid-state electrolytes for all-solid-state Li-ion batteries.
