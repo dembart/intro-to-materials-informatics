@@ -204,17 +204,25 @@ ___
 ___
 
 ### Materials informatics
+<style scoped>section{font-size:23px;}</style>
+
 ...accelerates the solution of materials science problems through the use of data
 
 ...mostly by replacing computational methods with surrogate models
 
 ![bg right:65% 100%](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41524-022-00765-z/MediaObjects/41524_2022_765_Fig1_HTML.png?as=webp)
 
-
-
 <footer> Accelerating materials discovery using <a href="https://www.nature.com/articles/s41524-022-00765-z">artificial intelligence, high performance computing and robotics</a> </footer>
 
 ---
+
+"A **surrogate model** is an engineering method used when an **outcome of interest cannot be easily measured or computed**, so an **approximate** mathematical **model** of the outcome is used instead." 
+
+https://en.wikipedia.org/wiki/Surrogate_model
+
+--- 
+
+
 
 <style scoped>section{font-size:20px;}</style>
 
@@ -281,7 +289,7 @@ ___
 - 3 HWs
 - 1 FP
 - 2 FP peer-reviews
-- ~10 lecture recap quizzes
+- ~10 lecture/seminar recap quizzes
 
 ___
 

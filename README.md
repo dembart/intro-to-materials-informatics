@@ -148,7 +148,7 @@ Data used during the seminars
 
 |Name      |Description |Source     |
 |----------|------------|-----------|
-|          |            |           |
+|LiIonDatabase.csv          |            |           |
 
 
 
