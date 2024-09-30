@@ -33,6 +33,8 @@ The course is an overview of data-driven techniques for accelerating materials d
 
 It is expected that students will better understand the concepts through learning by doing. At the end of the course, students will present a final project in the form of an article based on the homework they have completed.
 
+The course is developed by Artem Dembitskiy (4th-year Ph.D.) under the supervision of prof. Dmitry Aksenov at the Skolkovo Institute of Science and Technology
+
 ## Timeline and location
 
 Term 1B, Sept. 30 - Oct. 25, MON THU FRI 16:00-19:00 
@@ -40,7 +42,7 @@ Term 1B, Sept. 30 - Oct. 25, MON THU FRI 16:00-19:00
 
 ## (Approximate) Schedule: 
 
-* Week #1 (easy)
+* Week #1 (easy/medium)
     * What is materials informatics? 
     * Python for atomistic modeling of materials
     * Data in materials science
@@ -67,11 +69,11 @@ The format of each class is the relatively short lecture plus the relatively lon
 | Class | Lecture | Seminar | Homework | Supplementary materials |
 |------|----------|----------|----------|-------|
 |<a id="1">1</a>. <br> (Date: Sep. 30)| Lecture 1<br> Agenda: Materials informatics overview. Motivation, navigation. ILOs and assessment. HWs and FP description.|Seminar 1<br> Agenda: Google Colab, reminder of the key libraries used in science: numpy, pandas, scipy, matplotlib.| HW1 <br> Agenda: Python basics, numpy, pandas, scipy, matplotlib. Python for atomistic modeling. The Materials project API <br>Deadline: Oct., 10, 2024, 15:59 MSK |   |
-|<a id="2">2</a> <br> (Date: Oct. 3)| Lecture 2 <br> Agenda: Python in materials science.|Seminar 2 <br> Agenda: The ase and pymatgen python libraries. Molecules and crystals. Various text formats of a material representation. Local coordination, nearest neighbors list building, Voronoi partitioning, symmetry.|       |       |
-|<a id="3">3</a> <br> (Date: Oct. 4)| Lecture 3 <br> Agenda: Data in materials science. FAIR principles. The Materials Project and its API.|Seminar 3 <br> Agenda: Screening of solid-state electrolytes using The Materials Project's API and pymatgen.|       |     |
-|<a id="4">4</a> <br> (Date: Oct. 7)| Lecture 4 <br> Agenda: Data exploration, fitting, and visualization. Assessing the fit. Metrics. Overfitting.|Seminar 4 <br> Agenda: scipy, matplotlib.|       |     |
-|<a id="5">5</a> <br> (Date: Oct. 10)| Lecture 5 <br> Agenda: ML for materials science. Types of tasks. Property and descriptor. |Seminar 5 <br> Agenda: scikit-learn python library, regression models for predicting mechanical and thermodynamic properties of materials. HW1 review.|HW2 <br> Agenda: sklearn, regression, band gap prediction, feature importances and feature selection.<br> Deadline: Oct., 18, 2024, 15:59 MSK<br>FP announcement<br>[Agenda](#approximate-final-project-description).  <br> Deadline: Oct., 25, 2024, 23:59 MSK|     |
-|<a id="6">6</a> <br> (Date: Oct. 11)| Lecture 6 <br> Agenda:  Feature design in materials science. Geometrical and compositional features. Hierarchy of the crystal structure descriptors. Crystal structure fingerprint. Feature importance|Seminar 6 <br> Agenda: matminer and dscribe python libraries. Reproduce an article on feature design.|    |     |
+|<a id="2">2</a> <br> (Date: Oct. 3)| Lecture 2 <br> Agenda: Python in materials science.|Seminar 2 <br> Agenda: The ase and pymatgen python libraries. Molecules and crystals. Various text formats of a material representation. Local coordination, nearest neighbors list building, Voronoi partitioning, translational symmetry.|       |  [ASE: tips and tricks](https://wiki.fysik.dtu.dk/ase/tips.html), [Pymatgen tutorials](https://github.com/materialsvirtuallab/matgenb/tree/master/notebooks) |
+|<a id="3">3</a> <br> (Date: Oct. 4)| Lecture 3 <br> Agenda: Data in materials science. FAIR principles. The Materials Project and its API.|Seminar 3 <br> Agenda: Screening of solid-state electrolytes using The Materials Project's API and pymatgen.|       |  [Paper: FAIR](https://www.nature.com/articles/sdata201618), [Paper: MP](https://pubs.aip.org/aip/apm/article/1/1/011002/119685/Commentary-The-Materials-Project-A-materials), [The MP API: Getting started](https://docs.materialsproject.org/downloading-data/using-the-api/getting-started) |
+|<a id="4">4</a> <br> (Date: Oct. 7)| Lecture 4 <br> Agenda: Exploratory data analysis.|Seminar 4 <br> Agenda: scipy, matplotlib, pandas, EDA|       |  [Lecture from CS 109a course by Pavlos Protopapas & Kevin Rader](https://harvard-iacs.github.io/2018-CS109A/lectures/lecture-3/presentation/lecture3.pdf)    |
+|<a id="5">5</a> <br> (Date: Oct. 10)| Lecture 5 <br> Agenda: ML for materials science. Types of tasks. Property and descriptor. |Seminar 5 <br> Agenda: scikit-learn python library, regression models for predicting mechanical and thermodynamic properties of materials. HW1 review.|HW2 <br> Agenda: sklearn, regression, band gap prediction, feature importances and feature selection.<br> Deadline: Oct., 18, 2024, 15:59 MSK<br>FP announcement<br>[Agenda](#approximate-final-project-description).  <br> Deadline: Oct., 25, 2024, 23:59 MSK|  [Paper](https://www.nature.com/articles/s41524-019-0221-0#Abs1)   |
+|<a id="6">6</a> <br> (Date: Oct. 11)| Lecture 6 <br> Agenda:  Feature design in materials science. Geometrical and compositional features. Hierarchy of the crystal structure descriptors. Crystal structure fingerprint. Feature importance|Seminar 6 <br> Agenda: matminer and dscribe python libraries. Reproduce an article on feature design.|    |  [Paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.024104)   |
 |<a id="7">7</a> <br> (Date: Oct. 14)| Lecture 7 <br> Agenda: Artificial neural networks. Loss function. Backpropagation.  Graph representation of materials. How to deal with periodicity. Crystal Graph Convolutional Neural Networks (CGCNN).  Message passing.|Seminar 7 <br> Agenda: github, CGCNN for predicting formation energy of crystals.|    |     |
 |<a id="8">8</a> <br> (Date: Oct. 17)| Lecture 8 <br> Agenda: Invariance and Equivariance. E(3)-equivariant graph neural networks|Seminar 8 <br> Agenda: torch, training loop, NequIP - E(3)-equivariant graph neural network|    |     |
 |<a id="9">9</a> <br> (Date: Oct. 18)| Lecture 9 <br> Agenda: Machine learning for molecular simulation. Interatomic potential. Energy and forces. Molecular dynamics employing GNNs. Active learning. Foundation models.|Seminar 9 <br> Agenda: M3GNet model for molecular dynamics simulation of Li-ion diffusion in Li3PS4.  HW2 review.|HW3 <br>Agenda: Band gap prediction with GNN, molecular dynamics simulation using universal interatomic potentials <br> Deadline: Oct., 24, 2024, 15:59 MSK|     |
@@ -132,6 +134,12 @@ The task is to carry out a 'small' high throughput screening of solid state elec
     * Bibliography
 * Prepare a 5 minutes oral presentation
 
+
+### Recommended literature
+- Books
+    - Materials Informatics and Catalysts Informatics: An Introduction, Keisuke Takahashi, Lauren Takahashi, 2024, ISBN-10: 981970216X
+- Papers
+    - Recent advances and applications of machine learning in solid-state materials science., Schmidt, J., Marques, M.R.G., Botti, S. et al., npj Comput Mater 5, 83 (2019). https://doi.org/10.1038/s41524-019-0221-0
 
 
 ### Data
