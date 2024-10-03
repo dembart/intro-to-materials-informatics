@@ -220,9 +220,22 @@ Automation:
 #### A few words about periodic boundary conditions before the start of the seminar
 
 ---
+### Fractional coordinates
 <style scoped>section{font-size:20px;}</style>
 
-![bg right:35% 90%](http://people.se.cmich.edu/petko1vg/isaacs/manual/pbc-seb.png)
+- Crystallographic basis (**a**, **b**, **c**) = basis vectors of the coordinate system
+- Coordinate of an atom: **r** = (x, y, z)
+- Fractional coordinate of the atom: (x/|**a**|, y/|**b**|, z/|**c**|)
+
+![bg right:50% 80%](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Crystal_Coordinates.png/1280px-Crystal_Coordinates.png)
+
+https://en.wikipedia.org/wiki/Fractional_coordinates
+
+---
+
+<style scoped>section{font-size:20px;}</style>
+
+![bg right:52% 100%](https://lammpstube.com/wp-content/uploads/2019/10/Periodic-Boundary-Logo.png)
 
 ### There is a three dimensional periodicity in crystals = translational symmetry
 - The smallest repeating unit, **unit cell**, describes the whole crystal
@@ -233,15 +246,9 @@ Automation:
     -  m, n, k - integer numbers
 
 
-<footer>Image <a href="http://people.se.cmich.edu/petko1vg/isaacs/manual/page22_ct.html">source</a></footer>
+<footer>Image <a href="https://lammpstube.com/2019/10/30/periodic-boundary-conditions/">source</a></footer>
+
 
 ---
-### Fractional coordinates
-<style scoped>section{font-size:20px;}</style>
 
-- Crystallographic basis (**a**, **b**, **c**) = basis vectors of the coordinate system
-- Coordinate of an atom: **r** = (x, y, z)
-- Fractional coordinate of the atom: (x/|**a**|, y/|**b**|, z/|**c**|)
-
-https://en.wikipedia.org/wiki/Fractional_coordinates
-
+# Thank you for your attention!

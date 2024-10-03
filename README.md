@@ -138,6 +138,9 @@ The task is to carry out a 'small' high throughput screening of solid state elec
 ### Recommended literature
 - Books
     - Materials Informatics and Catalysts Informatics: An Introduction, Keisuke Takahashi, Lauren Takahashi, 2024, ISBN-10: 981970216X
+
+    - Deep Learning, Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016, MIT Press, https://www.deeplearningbook.org/
+
 - Papers
     - Recent advances and applications of machine learning in solid-state materials science., Schmidt, J., Marques, M.R.G., Botti, S. et al., npj Comput Mater 5, 83 (2019). https://doi.org/10.1038/s41524-019-0221-0
 
@@ -151,6 +154,7 @@ Data used during the seminars
 |LiIonDatabase.csv          |            |           |
 
 
+### Acknowledgement
 
 
 ### References | Materials | Inspiration
