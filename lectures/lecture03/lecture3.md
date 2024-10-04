@@ -75,6 +75,45 @@ Text
 ---
 
 
+### Typical workflow in materials informatics
+
+
+![bg right:60% 100%](figures/workflow.png)
+
+---
+
+### How to get data?
+
+<style scoped>section{font-size:20px;}</style>
+
+
+On your own:
+- Manual collection from your experiment or simulation
+- High-Throughput experiment or High-Throughput calculations
+- Extract from Review Articles: https://github.com/automeris-io/WebPlotDigitizer
+- Text Mining using reseach articles: https://www.nltk.org/, chatGPT
+
+From available datasets:
+
+- Data purchase
+- Open materials databases
+
+---
+
+### Data preprocessing
+
+<style scoped>section{font-size:20px;}</style>
+
+- Cleansing
+- Augmentation - variations and transformation to extend the dataset.
+- Aggregation - integration of multiple datasets
+
+
+![bg right:60% 75%](figures/cleansing.png)
+
+---
+
+
 ### There is a huge amount of materials science data
 
 <style scoped>section{font-size:20px;}</style>
@@ -111,7 +150,7 @@ Curated databases
 - time
 
 
-![bg right:60% 90%](https://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/research-data-life-cycle/_jcr_content/par/image/image.imageformat.1286.1219907124.svg)
+![bg right:65% 100%](https://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/research-data-life-cycle/_jcr_content/par/image/image.imageformat.1286.1219907124.svg)
 
 
 <footer>Image<a href="https://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/research-data-life-cycle.html"> source</a> </footer>
@@ -227,7 +266,6 @@ website: https://next-gen.materialsproject.org/
     - Formation energies
     - Phase diagrams
     - Stability
-- Or all at once
 
 ![bg right:50% 100%](https://www.researchgate.net/publication/358274640/figure/fig1/AS:1167781676494848@1655432256080/Illustrating-stability-within-a-convex-hull-phase-diagram-Note-that-for-clarity-only_W640.jpg)
 
