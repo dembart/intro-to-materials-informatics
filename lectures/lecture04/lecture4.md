@@ -28,18 +28,11 @@ header: 'Lecture 4: Exploratory data analysis '
   - The Materials project API
 
 ---
-### Goals
+### Goals/Agenda
 
 - Explain why visualizing data is important when analyzing data
 - Provide tips on how to use visualization to explore data
 
----
-### Agenda
-
-- Goals
-- Attribution
-- Why visual data inspection?
-- Tips for plotting the data
 ---
 
 ### Attribution
@@ -49,6 +42,16 @@ header: 'Lecture 4: Exploratory data analysis '
   - https://harvard-iacs.github.io/2018-CS109A/lectures/lecture-3/presentation/lecture3.pdf
 
 - Consider the following materials your reading homework
+---
+### The data science workflow
+
+![bg right:60% 90%](figures/datascience_workflow.png)
+
+
+<footer>From CS 109a: Data Science,
+Effective Exploratory Data
+Analysis and Visualization by Pavlos Protopapas & Kevin Rader<a href="https://harvard-iacs.github.io/2018-CS109A/lectures/lecture-3/presentation/lecture3.pdf"> slide #2</a></footer>
+
 ---
 ### Descriptive statistics 
 
@@ -102,7 +105,18 @@ np.median(data)
 ![bg right:50% 90%](https://wikimedia.org/api/rest_v1/media/math/render/svg/98f02417b7c2830d941364f6b40e22ea63a9dd1f)
 
 ---
+<style scoped>section{font-size:24px;}</style>
 
+### Correlation coefficient
+
+[The Pearson correlation coefficient](https://en.wikipedia.org/wiki/"Pearson_correlation_coefficient) measures the linear relationship between two datasets. Like other correlation coefficients, this one varies between -1 and +1 with 0 implying no correlation."
+
+[scipy docs](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html#r8c6348c62346-1)
+
+
+![bg right:60% 100%](figures/pearson.png)
+
+---
 ### Descriptive statistics of band gap (Eg) distribution in the Materials Project
 
 - Sample size
@@ -161,7 +175,7 @@ Analyze (Exploratory)
 - Decide what to do
 
 
-<footer>Copypaste from CS 109a: Data Science,
+<footer> From CS 109a: Data Science,
 Effective Exploratory Data
 Analysis and Visualization by Pavlos Protopapas & Kevin Rader<a href="https://harvard-iacs.github.io/2018-CS109A/lectures/lecture-3/presentation/lecture3.pdf"> slide #23</a></footer>
 
@@ -208,6 +222,7 @@ df = pd.read_csv('eg_data.csv')
   - outliers
   - NaNs (missing values)
   - constant rows
+  - duplicates
 ```python
 df.dropna()
 ```
@@ -273,11 +288,11 @@ Have a look at this page: https://en.wikipedia.org/wiki/Misleading_graph
 
 - scatter plot, correlation matrix
 
-![bg right:60% 80%](https://journals.aps.org/prmaterials/article/10.1103/PhysRevMaterials.8.055403/figures/7/medium)
+![bg right:70% 90%](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-40669-0/MediaObjects/41467_2023_40669_Fig6_HTML.png?as=webp)
 
 **Is it a good graph? Why?**
 
-<footer>Origin of surface segregation in LiCoO2: <a href="https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.8.055403"> A DFT+𝑈 study</a></footer>
+<footer>Design principles for NASICON  <a href="https://www.nature.com/articles/s41467-023-40669-0"> super-ionic conductors</a></footer>
 
 ---
 ### Distribution
@@ -292,14 +307,30 @@ Have a look at this page: https://en.wikipedia.org/wiki/Misleading_graph
 ---
 ### Comparison
 
-- bar plot
+- bar plot, box plot
 
 **Is it a good graph? Why?**
 
-![bg right:50% 90%](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-31768-5/MediaObjects/41467_2022_31768_Fig4_HTML.png?as=webp)
+
+![bg right:60% 100%](figures/eg_family_barplot.png)
+
+---
+### Box plot
+![bg right:60% 80%](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Boxplot_vs_PDF.svg/1024px-Boxplot_vs_PDF.svg.png)
+
+---
+
+# Don't use pie charts
+
+Barplots are easier to compare
+
+![bg right:50% 100%](https://images.theconversation.com/files/556773/original/file-20231031-25-9vdsm4.png?ixlib=rb-4.1.0&q=30&auto=format&w=600&h=430&fit=crop&dpr=2)
 
 
-<footer>Development of vanadium-based polyanion positive electrode active materials for high-voltage <a href="https://www.nature.com/articles/s41467-022-31768-5"> sodium-based batteries</a></footer>
+
+<footer>Here’s why you should (almost) never use a pie chart <a href="https://theconversation.com/heres-why-you-should-almost-never-use-a-pie-chart-for-your-data-214576"> for your data</a></footer>
+
+
 
 ---
 <style scoped>section{font-size:22px;}</style>

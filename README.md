@@ -157,6 +157,10 @@ Data used during the seminars
 ### Acknowledgement
 
 
+### Typos/Mistakes/Suggestions/Comments
+
+If you have any ideas/comments on how to improve the content of the course, or have found any typos and mistakes, don't hesitate to create a github issue.
+
 ### References | Materials | Inspiration
 [Mark Asta and Enze Chen](https://enze-chen.github.io/mi-book-2021/intro.html)  
 [Taylor Sparks](https://github.com/sp8rks/MaterialsInformatics/tree/main)  
