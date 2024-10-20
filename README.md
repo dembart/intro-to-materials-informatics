@@ -1,6 +1,5 @@
 ## Introduction to Materials Informatics
 
-
 ## Contents
 - [About](#about)
 - [Timeline](#timeline-and-location)
@@ -22,9 +21,10 @@
 - [Course prerequisites](#course-prerequisites)
 - [Course navigation](#course-navigation)
 - [Assessment criteria](#assessment-criteria)
-- [Final project description](#approximate-final-project-description)
+- [Final project description](#example-final-project-description)
 - [References](#references-materials-inspiration)
 - [Data](#data)
+- [List of resources related to materials informatics](#list-of-resources-related-to-materials-informatics)
  
 
 ## About
@@ -74,11 +74,11 @@ The format of each class is the relatively short lecture plus the relatively lon
 |<a id="4">4</a> <br> (Date: Oct. 7)| Lecture 4 <br> Agenda: Exploratory data analysis.|Seminar 4 <br> Agenda: scipy, matplotlib, pandas, EDA|       |  [Lecture from CS 109a course by Pavlos Protopapas & Kevin Rader](https://harvard-iacs.github.io/2018-CS109A/lectures/lecture-3/presentation/lecture3.pdf)    |
 |<a id="5">5</a> <br> (Date: Oct. 10)| Lecture 5 <br> Agenda: ML for materials science. Types of tasks. Property and descriptor. |Seminar 5 <br> Agenda: scikit-learn python library, regression models for predicting mechanical and thermodynamic properties of materials. HW1 review.|HW2 <br> Agenda: sklearn, regression, hardness prediction, feature importances and feature selection, molecular dynamics simulation using universal interatomic potentials. <br> Deadline: Oct., 21, 2024, 15:59 MSK<br>FP announcement<br>[Agenda](#approximate-final-project-description).  <br> Deadline: Oct., 25, 2024, 23:59 MSK|  [Paper](https://www.nature.com/articles/s41524-019-0221-0#Abs1)   |
 |<a id="6">6</a> <br> (Date: Oct. 11)| Lecture 6 <br> Agenda:  Feature design in materials science. Geometrical and compositional features. Hierarchy of the crystal structure descriptors. Crystal structure fingerprint. Feature importance|Seminar 6 <br> Agenda: matminer and dscribe python libraries. Reproduce an article on feature design.|    |  [Paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.024104)   |
-|<a id="7">7</a> <br> (Date: Oct. 14)| Lecture 7 <br> Agenda: Artificial neural networks. Loss function. Backpropagation.  Graph representation of materials. How to deal with periodicity. Crystal Graph Convolutional Neural Networks (CGCNN).  Message passing.|Seminar 7 <br> Agenda: github, CGCNN for predicting formation energy of crystals.|HW3 <br>Agenda: Paper review <br> Deadline: Oct., 21, 2024, 15:59 MSK  |     |
-|<a id="8">8</a> <br> (Date: Oct. 17)| Lecture 8 <br> Agenda: Machine learning for molecular simulation. Interatomic potential. Energy and forces. Molecular dynamics employing GNNs. Active learning. Foundation models.|Seminar 8 <br> Agenda: M3GNet model for molecular dynamics simulation of Li-ion diffusion in Li3PS4.  HW2 review.||     |
+|<a id="7">7</a> <br> (Date: Oct. 14)| Lecture 7 <br> Agenda: Artificial neural networks. Loss function. Backpropagation.  Graph representation of materials. How to deal with periodicity. Crystal Graph Convolutional Neural Networks (CGCNN).  Message passing.|Seminar 7 <br> Agenda: github, CGCNN for predicting formation energy of crystals.|HW3 <br>Agenda: Paper review <br> Deadline: Oct., 21, 2024, 15:59 MSK  | [Paper](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301)    |
+|<a id="8">8</a> <br> (Date: Oct. 17)| Lecture 8 <br> Agenda: Machine learning for molecular simulation. Interatomic potential. Energy and forces. Molecular dynamics employing GNNs. Active learning. Foundation models.|Seminar 8 <br> Agenda: M3GNet model for molecular dynamics simulation of Li-ion diffusion in Li3PS4.  HW2 review.|| [Paper](https://pubs.acs.org/doi/10.1021/acs.jctc.4c00190)    |
 |<a id="9">9</a> <br> (Date: Oct. 18)| Lecture 9 <br> Agenda: The course wrap up. Tips to complete a final project. Formulation of the problem. Data collection/analysis. Data splitting. Feature design. Model selection. Bias/Overfitting. Common practices of a model assessment. Results analysis. Common mistakes, good and bad practices in employing ML for materials science.|Seminar 9 <br> Agenda: Working on final projects|    |     |
 |<a id="10">10</a> <br> (Date: Oct. 21)| Lecture 10 <br> Agenda: Students present their critical reviews of materials informatics articles (oral presentations)|Seminar 10 <br> Agenda: Continuation of the lecture|    |     |
-|<a id="11">11</a> <br> (Date: Oct. 24)| Lecture 11 <br> Agenda: Invariance and Equivariance. E(3)-equivariant graph neural networks|Seminar 11 <br> Agenda: torch, training loop, NequIP - E(3)-equivariant graph neural network|    |     |
+|<a id="11">11</a> <br> (Date: Oct. 24)| Lecture 11 <br> Agenda: Invariance and Equivariance. E(3)-equivariant graph neural networks|Seminar 11 <br> Agenda: torch, training loop, NequIP - E(3)-equivariant graph neural network|    |  [Paper](https://www.nature.com/articles/s41467-022-29939-5)   |
 |<a id="12">12</a> <br> (Date: Oct. 25)| Lecture 12 <br> Agenda: Final projects presentations|Seminar 12 <br> Agenda: Final projects presentation|    |     |
 
 
@@ -95,9 +95,9 @@ On completion of the course you will be able to:
 
 
 ## Course prerequisites
-* computational materials science track
-* basic knowledge of materials modeling, python (numpy, pandas), crystal chemistry, linear algebra
-* laptop
+* Computational materials science track
+* Basic knowledge of materials modeling, python (numpy, pandas), crystal chemistry, linear algebra
+* Laptop
 
 
 ## Course navigation
@@ -147,21 +147,58 @@ The task is to carry out a 'small' high throughput screening of solid state elec
 
 ### Data
 
-Data used during the seminars
+Data used for seminars and homeworks
 
 |Name      |Description |Source     |
 |----------|------------|-----------|
-|LiIonDatabase.csv          |            |           |
+|[Li-ion conductivity dataset](seminars/seminar04/data/LiIonDatabase_poisoned.csv)          |The dataset of experimentally measured Li-ion conductivities in crystal (and amorphous) ceramics. The data includes crystal structure family, chemical family, chemical composition, target property, temperature of measurements, and source of the data. The data is poisoned with None values and outliers. The task for the students is to clean the dataset and perform exploratory data analsysis.         |   Hargreaves, C.J., Gaultois, M.W., Daniels, L.M. et al. A database of experimentally measured lithium solid electrolyte conductivities evaluated with machine learning. npj Comput Mater 9, 9 (2023). https://doi.org/10.1038/s41524-022-00951-z        |
+|[The Materials project band gap dataset](seminars/seminar04/data/mp_eg_data.csv)| The dataset of a band gap values calculated using density functional theory for crystal structures. The task for students is to perform the exploratory data analysis, find the correlation between band gap value and average electronegativity of the structure| [The Materials project](https://next-gen.materialsproject.org/) API was used to retrieve the data.|
+|[Double perovskite oxides band gap dataset](seminars/seminar05/data/eg_double_perovskites.csv)|The dataset consists of the badn gap targets calculates with density functional theory and the elemental and geometrical descriptors of the crystal structures. The task for the students is to perform exploratory data analysis, find the correlations between the target and descriptors, optimize hyperparametrs of the regression models conduct the feature selection and feature importance study.|Talapatra, A., Uberuaga, B.P., Stanek, C.R. et al. Band gap predictions of double perovskite oxides using machine learning. Commun Mater 4, 46 (2023). https://doi.org/10.1038/s43246-023-00373-4|
+|[Hardness dataset](homeworks/hw2/data/train.dat)|The dataset of expeimentally measured hardness of materials. The data is used for HW2 on supervised machine learning|Tantardini, Christian, et al. "Material hardness descriptor derived by symbolic regression." Journal of Computational Science 82 (2024): 10240, [repo](https://github.com/AlexanderKvashnin/SISSO_hardness/blob/main/train.dat)|
 
+
+### List of resources related to materials  informatics
+
+
+#### Databases
+- [The Materials project database](https://next-gen.materialsproject.org/) - the most popular database of crystal structures and their properties calculated with density functional theory
+- [AFLOW](https://www.aflowlib.org/) - a database of material compounds and calculated properties
+- [OQMD](https://oqmd.org/) - a database of DFT calculated thermodynamic and structural properties of materials
+
+#### Curated lists
+- [Awesome Materials Informatics](https://github.com/tilde-lab/awesome-materials-informatics?tab=readme-ov-file) - curated list of known efforts in materials informatics
+
+#### Software
+
+- [ASE](https://wiki.fysik.dtu.dk/ase/) and [Pymatgen](https://pymatgen.org/) are a must for materials informatics scientist
+- [matminer](https://hackingmaterials.lbl.gov/matminer/) - a Python library for data mining the properties of materials
+- [DScribe](https://singroup.github.io/dscribe/latest/) -  is a Python package for transforming atomic structures into fixed-size numerical fingerprints
+- [TorchSISSO](https://github.com/PaulsonLab/TorchSISSO) - a PyTorch-Based Implementation of the Sure Independence Screening and Sparsifying Operator (SISSO) for Efficient and Interpretable Model Discovery
+
+
+
+#### Tutorials
+- [Tutorials](https://github.com/materialsvirtuallab/matgenb/tree/master/notebooks) on how to use pymatgen, the python library for atomistic materials modeling and post-processing of the density functional theory calculations
+- [Examples](https://github.com/hackingmaterials/matminer_examples/tree/main/matminer_examples) on how to use matminer, the python library for encoding atomic structures (i.e. generating atomic structure descriptors)
+
+#### Universal MLIPs
+
+Universal interatomic potential based on graph neural networks. These potentials are trained on the MPtrj dataset - a dataset of optimization trajectories for the crystal structures deposited at the Materials project database. 
+
+- [SevenNet](https://github.com/MDIL-SNU/SevenNet) -  a graph neural network interatomic potential package supporting efficient multi-GPU parallel molecular dynamics simulations.
+- [MACE_MP](https://github.com/ACEsuit/mace-mp) - pre-trained foundation models for materials chemistry, parameterised for 89 chemical elements.
+- [CHGNet](https://chgnet.lbl.gov/) - a pretrained universal neural network potential for charge-informed atomistic modeling. 
+- [M3GNet](https://matgl.ai/#m3gnet) - a universal graph deep learning interatomic potential for the periodic table. Note: this potential is trained on a smaller dataset. 
 
 ### Acknowledgement
 
+We would like to thank [Andrey Geondzhian](https://github.com/geonda) for giving a talk on neural networks for materials science. 
 
-### Typos/Mistakes/Suggestions/Comments
+### Typos, mistakes, suggestions, comments
 
 If you have any ideas/comments on how to improve the content of the course, or have found any typos and mistakes, don't hesitate to create a github issue.
 
-### References | Materials | Inspiration
+### References, materials, inspiration
 [Mark Asta and Enze Chen](https://enze-chen.github.io/mi-book-2021/intro.html)  
 [Taylor Sparks](https://github.com/sp8rks/MaterialsInformatics/tree/main)  
 [Edward Kim](https://github.com/eddotman/intro-to-materials-informatics)
