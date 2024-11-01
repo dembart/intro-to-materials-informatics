@@ -1,7 +1,9 @@
-## Introduction to Materials Informatics
+![logo](figures/logo.png)
+
 
 ## Contents
 - [About](#about)
+- [First-run evaluation](#first-run-results)
 - [Timeline](#timeline-and-location)
 - [Schedule](#approximate-schedule)
 - [Classes](#classes)
@@ -25,6 +27,7 @@
 - [References](#references-materials-inspiration)
 - [Data](#data)
 - [List of resources related to materials informatics](#list-of-resources-related-to-materials-informatics)
+
  
 
 ## About
@@ -34,6 +37,25 @@ The course is an overview of data-driven techniques for accelerating materials d
 It is expected that students will better understand the concepts through learning by doing. At the end of the course, students will present a final project in the form of an article based on the homework they have completed.
 
 The course is developed by Artem Dembitskiy (4th-year Ph.D.) under the supervision of prof. Dmitry Aksenov at the Skolkovo Institute of Science and Technology
+
+## First-run results
+
+In the figure below, you can see how students responded to the questions we asked them regarding the course.
+
+- Question #1. Was it convenient for you to use Github for the course navigation?
+
+- Question #2. Please rank on a 7-point scale (7 being the highest) the degree to which you think you achieved the learning outcome "Apply python libraries and data science tools to solve materials science problems"
+
+- Question #3. Please rank on a 7-point scale (7 being the highest) the degree to which you think you achieved the learning outcome "Critically evaluate materials informatics literature"
+
+- Question #4. Please rank on a 7-point scale (7 being the highest) the degree to which you think you achieved the learning outcome "Collect, generate and analyse materials science datasets, including identification of structure-property relationships"
+
+![Course evaluation](figures/first_run.png)
+
+
+The questionnaire was adapted from [Using Jupyter Tools to Design an Interactive Textbook to Guide Undergraduate Research in Materials Informatics](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00640)
+
+
 
 ## Timeline and location
 
@@ -153,7 +175,7 @@ Data used for seminars and homeworks
 |----------|------------|-----------|
 |[Li-ion conductivity dataset](seminars/seminar04/data/LiIonDatabase_poisoned.csv)          |The dataset of experimentally measured Li-ion conductivities in crystal (and amorphous) ceramics. The data includes crystal structure family, chemical family, chemical composition, target property, temperature of measurements, and source of the data. The data is poisoned with None values and outliers. The task for the students is to clean the dataset and perform exploratory data analsysis.         |   Hargreaves, C.J., Gaultois, M.W., Daniels, L.M. et al. A database of experimentally measured lithium solid electrolyte conductivities evaluated with machine learning. npj Comput Mater 9, 9 (2023). https://doi.org/10.1038/s41524-022-00951-z        |
 |[The Materials project band gap dataset](seminars/seminar04/data/mp_eg_data.csv)| The dataset of a band gap values calculated using density functional theory for crystal structures. The task for students is to perform the exploratory data analysis, find the correlation between band gap value and average electronegativity of the structure| [The Materials project](https://next-gen.materialsproject.org/) API was used to retrieve the data.|
-|[Double perovskite oxides band gap dataset](seminars/seminar05/data/eg_double_perovskites.csv)|The dataset consists of the badn gap targets calculates with density functional theory and the elemental and geometrical descriptors of the crystal structures. The task for the students is to perform exploratory data analysis, find the correlations between the target and descriptors, optimize hyperparametrs of the regression models conduct the feature selection and feature importance study.|Talapatra, A., Uberuaga, B.P., Stanek, C.R. et al. Band gap predictions of double perovskite oxides using machine learning. Commun Mater 4, 46 (2023). https://doi.org/10.1038/s43246-023-00373-4|
+|[Double perovskite oxides band gap dataset](seminars/seminar05/data/eg_double_perovskites.csv)|The dataset consists of the band gap targets calculates with density functional theory and the elemental and geometrical descriptors of the crystal structures. The task for the students is to perform exploratory data analysis, find the correlations between the target and descriptors, optimize hyperparametrs of the regression models conduct the feature selection and feature importance study.|Talapatra, A., Uberuaga, B.P., Stanek, C.R. et al. Band gap predictions of double perovskite oxides using machine learning. Commun Mater 4, 46 (2023). https://doi.org/10.1038/s43246-023-00373-4|
 |[Hardness dataset](homeworks/hw2/data/train.dat)|The dataset of expeimentally measured hardness of materials. The data is used for HW2 on supervised machine learning|Tantardini, Christian, et al. "Material hardness descriptor derived by symbolic regression." Journal of Computational Science 82 (2024): 10240, [repo](https://github.com/AlexanderKvashnin/SISSO_hardness/blob/main/train.dat)|
 
 
@@ -161,12 +183,26 @@ Data used for seminars and homeworks
 
 
 #### Databases
-- [The Materials project database](https://next-gen.materialsproject.org/) - the most popular database of crystal structures and their properties calculated with density functional theory
-- [AFLOW](https://www.aflowlib.org/) - a database of material compounds and calculated properties
+- [The Materials project database](https://next-gen.materialsproject.org/) - the most popular database of crystal structures and their properties calculated with density functional theory (DFT)
+- [AFLOW](https://www.aflowlib.org/) - a database of material compounds and DFT calculated properties
 - [OQMD](https://oqmd.org/) - a database of DFT calculated thermodynamic and structural properties of materials
+
+#### Datasets
+
+- [A polymer dataset](https://datadryad.org/stash/dataset/doi:10.5061/dryad.5ht3n) - structures, atomization energies, band gaps, and dielectric constants of 1k polymers
+- [SISSO hardness](https://github.com/AlexanderKvashnin/SISSO_hardness/blob/main/train.dat) - a dataset of experimentally measured hardness of 61 material
+- [QM9](https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904/4) - DFT calculated properties for 134k stable small organic molecules made up of CHONF
+- [Li-ion conductivities](https://pcwww.liv.ac.uk/~msd30/lmds/LiIonDatabase.html) - an experimentally measured Li-ion conductivity dataset of 2k solids
+- [Double perovskite oxides band gap dataset](https://www.nature.com/articles/s43246-023-00373-4#MOESM4) - a dataset of 5k band gap energies calculated with DFT for double perovskites 
+
+
+
+
+
 
 #### Curated lists
 - [Awesome Materials Informatics](https://github.com/tilde-lab/awesome-materials-informatics?tab=readme-ov-file) - curated list of known efforts in materials informatics
+- [Geometric GNNs](https://github.com/AlexDuvalinho/geometric-gnns) - a list of geometric graph neural networks for atomistic modeling
 
 #### Software
 
@@ -190,9 +226,13 @@ Universal interatomic potential based on graph neural networks. These potentials
 - [CHGNet](https://chgnet.lbl.gov/) - a pretrained universal neural network potential for charge-informed atomistic modeling. 
 - [M3GNet](https://matgl.ai/#m3gnet) - a universal graph deep learning interatomic potential for the periodic table. Note: this potential is trained on a smaller dataset. 
 
+
+
 ### Acknowledgement
 
-We would like to thank [Andrey Geondzhian](https://github.com/geonda) for giving a talk on neural networks for materials science. 
+We would like to thank:
+- [Andrey Geondzhian](https://github.com/geonda) for giving a talk on neural networks for materials science (Oct. 2024) 
+- [Innokentiy Humonen](https://github.com/IHumonen) for giving a talk on equivariant graph neural networks for materials science (Oct. 2024)
 
 ### Typos, mistakes, suggestions, comments
 
