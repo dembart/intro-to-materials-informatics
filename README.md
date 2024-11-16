@@ -1,7 +1,7 @@
 ![logo](figures/logo.png)
 
-
 ## Contents
+
 - [About](#about) | [Timeline](#timeline-and-location) | [Schedule](#approximate-schedule) | [Learning outcomes](#intended-learning-outcomes)
 - [First-run results](#first-run-results)
 - [Classes](#classes)
@@ -18,7 +18,7 @@
     - [Class #11: Graph neural networks for materials science pt.2](#11)
     - [Class #12: Final project presentations](#12)
 - [Assessment criteria](#assessment-criteria) 
-- [Final project description](#example-final-project-description)
+- [Final project description](#final-project-description)
 - [Data used](#data)
 - [List of resources related to materials informatics](#list-of-resources-related-to-materials-informatics)
 - [References](#references-materials-inspiration)
@@ -37,8 +37,10 @@ The course is developed by Artem Dembitskiy (4th-year Ph.D.) under the supervisi
 
 Term 1B, Sept. 30 - Oct. 25, MON THU FRI 16:00-19:00 
 
+### (Approximate) Schedule
 
-### (Approximate) Schedule: 
+<details>
+<summary> Click to open</summary>
 
 * Week #1 (easy/medium)
     * What is materials informatics? 
@@ -57,6 +59,7 @@ Term 1B, Sept. 30 - Oct. 25, MON THU FRI 16:00-19:00
     * Critical reviews of scientific journal articles
     * Final projects presentation
 
+</details>
 
 ### Intended learning outcomes
 On completion of the course you will be able to:
@@ -75,6 +78,8 @@ On completion of the course you will be able to:
 This github repo contains most of the course content. Quizzes and homeworks will be announced separately in the canvas and the telegram chat.
 
 ## First-run results
+<details>
+<summary> Course Evaluation Survey </summary>
 
 In the figure below, you can see how students responded to the questions we asked them regarding the first-run of the course.
 
@@ -91,7 +96,7 @@ In the figure below, you can see how students responded to the questions we aske
 
 The questionnaire was adapted from [Using Jupyter Tools to Design an Interactive Textbook to Guide Undergraduate Research in Materials Informatics](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00640)
 
-
+</details>
 
 ## Classes
 
@@ -123,7 +128,11 @@ Each class consists of a relatively short lecture and a relatively long (coding)
 * * Discussion of other projects 0-10%
 * Peer reviews  10 %
 
-## (Example) Final project description
+## Final project description
+
+<details>
+<summary> Example </summary>
+
 The task is to carry out a 'small' high throughput screening of solid state electrolytes conducting a given ion (Li+, Na+, K+ etc) using data driven techniques and tools covered (or beyond) during the course.
 
 * Given a set of chemical elements
@@ -142,6 +151,7 @@ The task is to carry out a 'small' high throughput screening of solid state elec
     * Bibliography
 * Prepare a 7 minutes oral presentation
 
+</details>
 
 ### Recommended literature
 - Books
@@ -152,8 +162,8 @@ The task is to carry out a 'small' high throughput screening of solid state elec
 
 
 ### Data
-
-Data used for seminars and homeworks
+<details>
+<summary>Data used for seminars and homeworks</summary>
 
 |Name      |Description |Source     |
 |----------|------------|-----------|
@@ -161,7 +171,7 @@ Data used for seminars and homeworks
 |[The Materials project band gap dataset](seminars/seminar04/data/mp_eg_data.csv)| The dataset of a band gap values calculated using density functional theory for crystal structures. The task for students is to perform the exploratory data analysis, find the correlation between band gap value and average electronegativity of the structure| [The Materials project](https://next-gen.materialsproject.org/) API was used to retrieve the data.|
 |[Double perovskite oxides band gap dataset](seminars/seminar05/data/eg_double_perovskites.csv)|The dataset consists of the band gap targets calculates with density functional theory and the elemental and geometrical descriptors of the crystal structures. The task for the students is to perform exploratory data analysis, find the correlations between the target and descriptors, optimize hyperparametrs of the regression models conduct the feature selection and feature importance study.|Talapatra, A., Uberuaga, B.P., Stanek, C.R. et al. Band gap predictions of double perovskite oxides using machine learning. Commun Mater 4, 46 (2023). https://doi.org/10.1038/s43246-023-00373-4|
 |[Hardness dataset](homeworks/hw2/data/train.dat)|The dataset of expeimentally measured hardness of materials. The data is used for HW2 on supervised machine learning|Tantardini, Christian, et al. "Material hardness descriptor derived by symbolic regression." Journal of Computational Science 82 (2024): 10240, [repo](https://github.com/AlexanderKvashnin/SISSO_hardness/blob/main/train.dat)|
-
+</details>
 
 ### List of resources related to materials  informatics
 
