@@ -260,13 +260,13 @@ We would like to thank:
 - [Andrey Geondzhian](https://github.com/geonda) for giving a talk on neural networks for materials science (Oct. 2024) 
 - [Innokentiy Humonen](https://github.com/IHumonen) for giving a talk on equivariant graph neural networks for materials science (Oct. 2024)
 
+### References, materials, inspiration
+- [Machine learning](https://github.com/dzisandy/Machine-Learning) by Evgeny Burnaev 
+- [Introduction to materials informatics](https://enze-chen.github.io/mi-book-2021/intro.html)  by Mark Asta and Enze Chen
+- [Materials informatics](https://github.com/sp8rks/MaterialsInformatics/tree/main) by Taylor Sparks
+- [Single-lecture introduction to materials informatics](https://github.com/eddotman/intro-to-materials-informatics) by Edward Kim
+
 ### Typos, mistakes, suggestions, comments
 
 If you have any ideas/comments on how to improve the content of the course, or have found any typos and mistakes, don't hesitate to create a github issue.
-
-### References, materials, inspiration
-[Mark Asta and Enze Chen](https://enze-chen.github.io/mi-book-2021/intro.html)  
-[Taylor Sparks](https://github.com/sp8rks/MaterialsInformatics/tree/main)  
-[Edward Kim](https://github.com/eddotman/intro-to-materials-informatics)
-
 
