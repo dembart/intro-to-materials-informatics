@@ -1,4 +1,4 @@
-![logo](figures/logo.png)
+![logo](https://github.com/dembart/intro-to-materials-informatics/blob/14d74726229c09e0d0bba3b79135b94f94c2c5ec/figures/logo.png?raw=True)
 
 > Announcement: We are preparing for Term 1B, 2025. See branch 2024 for the previous year course materials. 
 
