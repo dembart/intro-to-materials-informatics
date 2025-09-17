@@ -6,7 +6,7 @@ homeworks/hw1/hw1_solved.ipynb
 homeworks/hw2/hw2_solved.ipynb
 lecture0.ipynb
 
-lectures/*.old
+*.old
 lectures/*.key
 #lectures
 lectures/lecture01/marp_tutorial.md
