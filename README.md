@@ -1,5 +1,7 @@
 ![logo](figures/logo.png)
 
+> Announcement: We are preparing for Term 1B, 2025. See branch 2024 for the previous year course materials. 
+
 ## Contents
 
 - [About](#about) | [Timeline](#timeline-and-location) | [Schedule](#approximate-schedule) | [Learning outcomes](#intended-learning-outcomes)
@@ -31,11 +33,11 @@ The course is an overview of data-driven techniques for accelerating materials d
 
 It is expected that students will better understand the concepts through learning by doing. At the end of the course, students will present a final project in the form of an article based on the homework they have completed.
 
-The course is developed by Artem Dembitskiy (4th-year Ph.D.) under the supervision of prof. Dmitry Aksenov at the Skolkovo Institute of Science and Technology
+The course is developed by Artem Dembitskiy under the supervision of Prof. Dmitry Aksenov at the Skolkovo Institute of Science and Technology.
 
 ### Timeline and location
 
-Term 1B, Sept. 30 - Oct. 25, MON THU FRI 16:00-19:00 
+Term 1B, Sept. 30 - Oct. 25, MON 16:00-19:00, THU FRI 12:30-15:30
 
 ### (Approximate) Schedule
 
@@ -173,7 +175,7 @@ The task is to carry out a 'small' high throughput screening of solid state elec
 |[Hardness dataset](homeworks/hw2/data/train.dat)|The dataset of expeimentally measured hardness of materials. The data is used for HW2 on supervised machine learning|Tantardini, Christian, et al. "Material hardness descriptor derived by symbolic regression." Journal of Computational Science 82 (2024): 10240, [repo](https://github.com/AlexanderKvashnin/SISSO_hardness/blob/main/train.dat)|
 </details>
 
-### List of resources related to materials  informatics
+### List of resources related to materials informatics
 
 
 #### Databases
