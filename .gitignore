@@ -5,7 +5,6 @@ README_old.md
 homeworks/hw1/hw1_solved.ipynb
 homeworks/hw2/hw2_solved.ipynb
 lecture0.ipynb
-seminar1.ipynb
 
 lectures/*.old
 lectures/*.key
@@ -41,4 +40,6 @@ seminars/seminar09
 seminars/seminar10
 seminars/seminar11
 
-*.ipynb
+seminars/data
+
+#*.ipynb
