@@ -1,4 +1,3 @@
-*zip
 .DS_store
 IDEAS.md
 README_old.md
@@ -43,5 +42,6 @@ seminars/seminar03_The_Materials_Project_API.ipynb
 seminars/seminar08_GNN.ipynb
 
 seminars/data
-
+data/seminar08/MPF.2021.2.8.cleaned.sample.xyz
+homeworks/*zip
 #*.ipynb
