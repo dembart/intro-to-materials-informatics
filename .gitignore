@@ -1,45 +1,14 @@
 .DS_store
 IDEAS.md
-README_old.md
-homeworks/hw1/hw1_solved.ipynb
-homeworks/hw2/hw2_solved.ipynb
 lecture0.ipynb
 
 *.old
 lectures/*.key
-#lectures
-lectures/lecture01/marp_tutorial.md
-lectures/lecture01/trial_and_error.txt
-lectures/lecture01
-lectures/lecture02
-lectures/lecture03
-lectures/lecture04
-lectures/lecture05
-lectures/lecture06
-lectures/lecture07
-lectures/lecture08
-lectures/lecture09
-lectures/lecture10
-lectures/lecture11
 
 
-seminars/seminar01
-seminars/seminar02
-seminars/seminar02/*png
-seminars/seminar03
-seminars/seminar03/seminar3_The_Materials_Project_API_solved.ipynb
-seminars/seminar04
-seminars/seminar04/seminar4_.ipynb
-seminars/seminar05/seminar5_regression_.ipynb
-seminars/seminar05/seminar5_Regression_solved.ipynb
-seminars/seminar06
-seminars/seminar07
-seminars/seminar08
-seminars/seminar09
-seminars/seminar10
-seminars/seminar11
 seminars/*zip
 seminars/data
 data/seminar08/MPF.2021.2.8.cleaned.sample.xyz
 homeworks/*zip
+homeworks/hw1.ipynb
 #*.ipynb
