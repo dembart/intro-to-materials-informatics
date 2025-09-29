@@ -5,10 +5,7 @@ lecture0.ipynb
 *.old
 lectures/*.key
 
-
 seminars/*zip
 seminars/data
 data/seminar08/MPF.2021.2.8.cleaned.sample.xyz
 homeworks/*zip
-homeworks/hw1.ipynb
-#*.ipynb
