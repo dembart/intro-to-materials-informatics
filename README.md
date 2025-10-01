@@ -37,7 +37,7 @@ The course is developed by Artem Dembitskiy under the supervision of Prof. Dmitr
 
 ### Timeline and location
 
-Term 1B, Sept. 29 - Oct. 24, MON 16:00-19:00, THU FRI 12:30-15:30
+Term 1B, Sept. 29 - Oct. 24, MON 16:00-19:00 (R2-2030), WED 12:30-15:30 (R2-2030), FRI 12:30-15:30 (B4-3007) 
 
 ### (Approximate) Schedule
 
