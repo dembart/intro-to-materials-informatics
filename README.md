@@ -1,7 +1,5 @@
 ![logo](https://github.com/dembart/intro-to-materials-informatics/blob/14d74726229c09e0d0bba3b79135b94f94c2c5ec/figures/logo.png?raw=True)
 
-> Announcement: We are preparing for Term 1B, 2025. See branch 2024 for the previous year course materials. 
-
 ## Contents
 
 - [About](#about) | [Timeline](#timeline-and-location) | [Schedule](#approximate-schedule) | [Learning outcomes](#intended-learning-outcomes)
@@ -26,7 +24,6 @@
 - [References](#references-materials-inspiration)
 
  
-
 ## About
 
 The course is an overview of data-driven techniques for accelerating materials design with a focus on the atomistic scale and inorganic compounds. In general, each lecture is a short overview + minimum required theory. The seminars are the main part of the course. During the course we will: learn Python libraries for atomistic materials modelling, get an overview of materials science databases and learn how to use the Materials project API, apply machine learning algorithms to predict materials properties, and perform molecular dynamics simulations with deep learning interatomic potentials. 
