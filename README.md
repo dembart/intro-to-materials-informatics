@@ -97,6 +97,29 @@ The questionnaire was adapted from [Using Jupyter Tools to Design an Interactive
 
 </details>
 
+## Second-run results
+<details>
+<summary> Course Evaluation Survey </summary>
+
+In the figure below, you can see how students responded to the questions we asked them regarding the first-run of the course.
+
+- Question #1. Was it convenient for you to use Github for the course navigation?
+
+- Question #2. Please rank on a 7-point scale (7 being the highest) the degree to which you think you achieved the learning outcome "Apply python libraries and data science tools to solve materials science problems"
+
+- Question #3. Please rank on a 7-point scale (7 being the highest) the degree to which you think you achieved the learning outcome "Critically evaluate materials informatics literature"
+
+- Question #4. Please rank on a 7-point scale (7 being the highest) the degree to which you think you achieved the learning outcome "Collect, generate and analyse materials science datasets, including identification of structure-property relationships"
+
+- Question #5. Please rank on a 7-point scale (7 being the highest) the degree to which you used large language models for solving assignments?
+
+![Course evaluation](figures/second_run.png)
+
+
+The questionnaire (questions 1-4) was adapted from [Using Jupyter Tools to Design an Interactive Textbook to Guide Undergraduate Research in Materials Informatics](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00640)
+
+</details>
+
 ## Classes
 
 Each class consists of a relatively short lecture and a relatively long (coding) seminar. All class materials are stored in the [lectures](lectures) and [seminars](seminars) folders. Each class begins with "Previously on...", "Class Goals" and "Agenda" and ends with a "Take Home Message".
