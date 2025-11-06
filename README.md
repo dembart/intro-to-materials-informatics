@@ -148,7 +148,16 @@ Each class consists of a relatively short lecture and a relatively long (coding)
 * * Written report 50%
 * * Oral presentation 40-50%
 * * Discussion of other projects 0-10%
-* Peer reviews  10 %
+* Peer reviews  10%
+
+We assess the following aspects of the students' final projects:
+- Clarity of the talk, slides, and report
+- Clarity of the figures
+- Explanation of the problem being solved
+- Analysis of the results
+- Understanding of the methods used
+- Appropriateness of the chosen methods
+- Correspondence between the obtained results, the conclusions, and the original problem
 
 ## Final project description
 
