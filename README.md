@@ -1,6 +1,15 @@
 ![logo](https://github.com/dembart/intro-to-materials-informatics/blob/14d74726229c09e0d0bba3b79135b94f94c2c5ec/figures/logo.png?raw=True)
 
-## Содержание
+<div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+  <a href="https://github.com/dembart/intro-to-materials-informatics/tree/main">
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="Github">
+  </a>
+  <a href="https://github.com/dembart/intro-to-materials-informatics/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT">
+  </a>
+</div>
+
+## Содержание 
 
 * [О курсе](#о-курсе) 
 * [Результаты обучения](#результаты-обучения)
