@@ -181,7 +181,7 @@
 ## Список ресурсов по информатике материалов
 
 ### Базы данных
-- [База данных Materials Project](https://next-gen.materialsproject.org/)  
+- [The Materials Project](https://next-gen.materialsproject.org/)  
 Самая популярная база данных кристаллических структур и их свойств, рассчитанных с помощью теории функционала плотности (DFT).
 
 - [AFLOW](https://www.aflowlib.org/)  
@@ -192,10 +192,10 @@
 
 ### Наборы данных
 
-- [Набор данных по полимерам](https://datadryad.org/stash/dataset/doi:10.5061/dryad.5ht3n)  
+- [A polymer dataset](https://datadryad.org/stash/dataset/doi:10.5061/dryad.5ht3n)  
 Структуры, энергии атомизации, ширины запрещённой зоны и диэлектрические константы 1000 полимеров.
 
-- [твердость SISSO](https://github.com/AlexanderKvashnin/SISSO_hardness/blob/main/train.dat)  
+- [SISSO hardness](https://github.com/AlexanderKvashnin/SISSO_hardness/blob/main/train.dat)  
 Набор данных экспериментально измеренной твердости 61 материала.
 
 - [QM9](https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904/4)  
