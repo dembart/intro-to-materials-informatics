@@ -2,11 +2,23 @@
 IDEAS.md
 lecture0.ipynb
 
+README.yandex_cloud.md
+oral_exam_questions.md
+
+
+
 *.old
 lectures/*.key
+lectures/*.pdf
 
 seminars/*zip
 seminars/data
+seminars/*.ipynb
+
+
 homeworks/misc.ipynb
-data/seminar08/MPF.2021.2.8.cleaned.sample.xyz
 homeworks/*zip
+homeworks/*.ipynb
+
+data/seminar08/MPF.2021.2.8.cleaned.sample.xyz
+
