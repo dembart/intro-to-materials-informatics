@@ -10,6 +10,9 @@ oral_exam_questions.md
 *.old
 lectures/*.key
 lectures/*.pdf
+!lectures/lecture01_intro+navigation.pdf
+
+lectures/*.pptx
 
 seminars/*zip
 seminars/data
@@ -19,6 +22,7 @@ seminars/*.ipynb
 homeworks/misc.ipynb
 homeworks/*zip
 homeworks/*.ipynb
+homeworks/HW1.ipynb
 
 data/seminar08/MPF.2021.2.8.cleaned.sample.xyz
 
