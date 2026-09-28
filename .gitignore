@@ -17,6 +17,7 @@ lectures/*.pptx
 seminars/*zip
 seminars/data
 seminars/*.ipynb
+!seminars/seminar01_Python_Crash_Course.ipynb
 
 
 homeworks/misc.ipynb
