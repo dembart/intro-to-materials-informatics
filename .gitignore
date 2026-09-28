@@ -22,7 +22,7 @@ seminars/*.ipynb
 homeworks/misc.ipynb
 homeworks/*zip
 homeworks/*.ipynb
-homeworks/HW1.ipynb
+!homeworks/HW1.ipynb
 
 data/seminar08/MPF.2021.2.8.cleaned.sample.xyz
 
