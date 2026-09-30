@@ -11,6 +11,7 @@ oral_exam_questions.md
 lectures/*.key
 lectures/*.pdf
 !lectures/lecture01_intro+navigation.pdf
+!lecture02_python_for_materials_modeling.pdf
 
 lectures/*.pptx
 
