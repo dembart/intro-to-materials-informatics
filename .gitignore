@@ -20,6 +20,7 @@ seminars/data
 seminars/*.ipynb
 !seminars/seminar01_Python_Crash_Course.ipynb
 !seminars/seminar02*
+!seminars/seminar03*
 
 
 homeworks/misc.ipynb
