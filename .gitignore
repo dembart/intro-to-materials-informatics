@@ -12,6 +12,8 @@ lectures/*.key
 lectures/*.pdf
 !lectures/lecture01_intro+navigation.pdf
 !lecture02_python_for_materials_modeling.pdf
+!lecture03_*
+!lecture04_*
 
 lectures/*.pptx
 
@@ -22,6 +24,7 @@ seminars/*.ipynb
 !seminars/seminar02*
 !seminars/seminar03*
 !seminars/seminar04*
+!seminars/seminar05*
 
 
 homeworks/misc.ipynb
