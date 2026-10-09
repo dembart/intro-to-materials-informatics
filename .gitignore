@@ -14,6 +14,8 @@ lectures/*.pdf
 !lecture02_python_for_materials_modeling.pdf
 !lecture03_*
 !lecture04_*
+!lecture05_*
+
 
 lectures/*.pptx
 
@@ -25,6 +27,7 @@ seminars/*.ipynb
 !seminars/seminar03*
 !seminars/seminar04*
 !seminars/seminar05*
+!seminars/seminar06*
 
 
 homeworks/misc.ipynb
