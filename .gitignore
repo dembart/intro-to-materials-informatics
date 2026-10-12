@@ -15,6 +15,8 @@ lectures/*.pdf
 !lecture03_*
 !lecture04_*
 !lecture05_*
+!lecture06_*
+!lecture07_*
 
 
 lectures/*.pptx
@@ -28,6 +30,7 @@ seminars/*.ipynb
 !seminars/seminar04*
 !seminars/seminar05*
 !seminars/seminar06*
+!seminars/seminar07*
 
 
 homeworks/misc.ipynb
