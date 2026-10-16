@@ -31,6 +31,7 @@ seminars/*.ipynb
 !seminars/seminar05*
 !seminars/seminar06*
 !seminars/seminar07*
+!seminars/seminar08*
 
 
 homeworks/misc.ipynb
