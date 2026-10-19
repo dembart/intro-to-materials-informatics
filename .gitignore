@@ -17,6 +17,8 @@ lectures/*.pdf
 !lecture05_*
 !lecture06_*
 !lecture07_*
+!lecture08_*
+!lecture09_*
 
 
 lectures/*.pptx
