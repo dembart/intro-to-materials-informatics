@@ -2,9 +2,6 @@
 
 ## Contents
 
-> **NOTE:** We are preparing for the 2026 course run. For the previous course materials, please see the `2025` branch. The 2026 materials will be uploaded throughout the course.
-
-
 - [About](#about) | [Timeline](#timeline-and-location) | [Schedule](#approximate-schedule) | [Learning outcomes](#intended-learning-outcomes)
 - [Classes](#classes)
     - [Class #1: What is materials informatics + Python crash course](#1)
@@ -93,7 +90,7 @@ Each class consists of a relatively short lecture and a relatively long (coding)
 |<a id="6">6</a> <br> (Date: Oct. 9)| [Lecture 6](https://docs.google.com/presentation/d/1EEixLydD9IhWuAEXss5lq0XZwxLtdJ3hXyBY7mY5vHQ/edit?usp=sharing) <br> Agenda:  Feature design in materials science. Geometrical and compositional features. Hierarchy of the crystal structure descriptors. Crystal structure fingerprint. Feature importance|[Seminar 6](seminars/seminar06_Features.ipynb)<br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d6VQD2filrmfSVQkxtwxzz9pUitYmNPT?usp=sharing#sandboxMode=true) <br> Agenda: Feature importance, matminer python library.|    |  [Paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.96.024104)   |
 |<a id="7">7</a> <br> (Date: Oct. 12)| [Lecture 7](lectures/lecture07_Intro_to_Neural_Networks.pdf) <br> Agenda: Logistic regression. Neural networks. Backpropagation. |[Seminar 7](seminars/seminar07_LogReg_and_MLP.ipynb) <br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Uehvz49TcowVQSsgvyfN4B3pLCtHLatJ?usp=sharing#sandboxMode=true)<br> Agenda: Intro to PyTorch, training loop, metal/insulator classification  |HW3 <br>Agenda: Paper review <br> Deadline: Cancelled  |     |
 |<a id="8">8</a> <br> (Date: Oct. 16)| [Lecture 8](https://docs.google.com/presentation/d/17mvETth6mf_GjlaNTfcjvnwYU-1tST7FusULPSiLF14/edit?usp=sharing) <br> Agenda: Graph representation of materials. Crystal Graph Convolutional Neural Networks (CGCNN). How to deal with periodicity. Message passing. Invariance.|[Seminar 8](seminars/seminar08_Reproduce_CGCNN.ipynb) <br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1URYmhHonq9WS3ESbwjUcNSiWiEQPfXwq?usp=sharing#sandboxMode=true)<br> Agenda: pytorch_geometric, formation energy prediction.|    |  [Paper: CGCNN](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301)|
-|<a id="9">9</a> <br> (Date: Oct. 19)| [Lecture 9](lectures/lecture09_ML_for_molecular_simulation.pdf) <br> Agenda: Machine learning for molecular simulation. Interatomic potential. Energy and forces. Molecular dynamics employing GNNs. Universal potentials.|[Seminar 9](seminars/seminar09_MLMD.ipynb)  <br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QUUjuRUliSl_CFRyG9gXzqJ85xRbtdhY?usp=sharing#sandboxMode=true)<br> Agenda: Universal potentials for molecular dynamics simulation of Li-ion diffusion in Li3PS4. || [Paper](https://arxiv.org/abs/2308.06462) <br> [Paper](https://pubs.acs.org/doi/10.1021/acs.jctc.4c00190)    |
+|<a id="9">9</a> <br> (Date: Oct. 19)| [Lecture 9](lectures/lecture09_ML_for_molecular_simulation.pdf) <br> Agenda: Machine learning for molecular simulation. Interatomic potential. Energy and forces. Molecular dynamics employing GNNs. Universal potentials.|[Seminar 9](seminars/seminar09_MLMD.ipynb)  <br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QUUjuRUliSl_CFRyG9gXzqJ85xRbtdhY?usp=sharing#sandboxMode=true)<br> Agenda: Universal potentials for molecular dynamics simulation of Li-ion diffusion in Li3PS4. || [Paper](https://arxiv.org/abs/2308.06462) <br> [Paper](https://pubs.acs.org/doi/10.1021/acs.jctc.4c00190) <br> [MACE tutorials](https://mace-docs.readthedocs.io/en/latest/examples/tutorials.html)    |
 |<a id="10">10</a> <br> (Date: Oct. 21)| Lecture 10 <br> Agenda: Oral exam | Seminar 10 <br> Agenda: Oral exam |    |     |[Paper](https://www.nature.com/articles/s41467-022-29939-5)   |
 |<a id="11">11</a> <br> (Date: Oct. 23)| Lecture 11 <br> Agenda: Final projects presentations |Seminar 11 <br> Agenda: Final projects presentation|    |     |
 
@@ -204,92 +201,20 @@ The questionnaire (questions 1-4) was adapted from [Using Jupyter Tools to Desig
 
 </details>
 
-### List of resources related to materials informatics
-
-
-#### Databases
-- [The Materials project database](https://next-gen.materialsproject.org/)   
-The most popular database of crystal structures and their properties calculated with density functional theory (DFT)
-
-- [AFLOW](https://www.aflowlib.org/)  
-A database of material compounds and DFT calculated properties
-- [OQMD](https://oqmd.org/)  
-A database of DFT calculated thermodynamic and structural properties of materials
-
-#### Datasets
-
-- [A polymer dataset](https://datadryad.org/stash/dataset/doi:10.5061/dryad.5ht3n)  
-Structures, atomization energies, band gaps, and dielectric constants of 1k polymers.
-
-- [SISSO hardness](https://github.com/AlexanderKvashnin/SISSO_hardness/blob/main/train.dat)   
-A dataset of experimentally measured hardness of 61 material.
-
-- [QM9](https://springernature.figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904/4)  
-DFT calculated properties for 134k stable small organic molecules made up of CHONF.
-- [Li-ion conductivities](https://pcwww.liv.ac.uk/~msd30/lmds/LiIonDatabase.html)   
-An experimentally measured Li-ion conductivity dataset of 2k solids.
-- [Double perovskite oxides band gap dataset](https://www.nature.com/articles/s43246-023-00373-4#MOESM4)  
-A dataset of 5k band gap energies calculated with DFT for double perovskites.
-
-#### Curated lists
-- [Awesome Materials Informatics](https://github.com/tilde-lab/awesome-materials-informatics?tab=readme-ov-file)    
-A list of known efforts in materials informatics.
-
-- [Geometric GNNs](https://github.com/AlexDuvalinho/geometric-gnns)   
-A list of geometric graph neural networks for atomistic modeling.
-
-- [Best of Atomistic Machine Learning](https://github.com/JuDFTteam/best-of-atomistic-machine-learning?tab=readme-ov-file#datasets)  
-A list with 430 open-source projects grouped into 22 categories.
-
-- [Neural Network Models for Chemistry](https://github.com/Eipgen/Neural-Network-Models-for-Chemistry/tree/main)  
-A collection of Neural Network Models for chemistry.
-
-
-#### Software
-
-- [ASE](https://wiki.fysik.dtu.dk/ase/)  
-A python library for setting up, steering, and analyzing atomistic simulations. 
-
-- [Pymatgen](https://pymatgen.org/)  
-A python library for atomic structures analysis
-
-- [matminer](https://hackingmaterials.lbl.gov/matminer/)  
-A python library for data mining the properties of materials
-
-- [DScribe](https://singroup.github.io/dscribe/latest/)  
-A python package for transforming atomic structures into fixed-size numerical fingerprints
-
-- [TorchSISSO](https://github.com/PaulsonLab/TorchSISSO)  
-A PyTorch-Based Implementation of the Sure Independence Screening and Sparsifying Operator (SISSO) for Efficient and Interpretable Model Discovery
-
-#### Tutorials
-- [Pymatgen tutorials](https://github.com/materialsvirtuallab/matgenb/tree/master/notebooks)  
-Various tutorials on how to use pymatgen, the python library for atomistic materials modeling and post-processing of the density functional theory calculations.
-
-- [Matminer examples](https://github.com/hackingmaterials/matminer_examples/tree/main/matminer_examples)  
-Tutorials on how to use matminer, the python library for encoding atomic structures (i.e. generating atomic structure descriptors).
-
-#### Universal machine learning interatomic potentials
-
-
-- [SevenNet](https://github.com/MDIL-SNU/SevenNet)  
-A graph neural network interatomic potential package supporting efficient multi-GPU parallel molecular dynamics simulations.
-
-- [MACE_MP](https://github.com/ACEsuit/mace-mp)  
-Pre-trained foundation models for materials chemistry, parameterised for 89 chemical elements.
-
-- [CHGNet](https://chgnet.lbl.gov/)  
-A pretrained universal neural network potential for charge-informed atomistic modeling.
-
-- [M3GNet](https://matgl.ai/#m3gnet)  
-A universal graph deep learning interatomic potential for the periodic table. Note: this potential is trained on a smaller dataset. 
 
 
 ### Acknowledgement
 
-We would like to thank:
-- [Andrey Geondzhian](https://github.com/geonda) for giving a talk on neural networks for materials science (Oct. 2024) 
-- [Innokentiy Humonen](https://github.com/IHumonen) for giving a talk on equivariant graph neural networks for materials science (Oct. 2024)
+We would like to express our sincere thanks to our teaching assistants:
+
+- Nikita Davydov (Oct. 2026)
+- Maria Solovieva (Oct. 2025)
+
+We also thank our guest speakers:
+- [Andrey Geondzhian](https://github.com/geonda), Neural networks for materials science (Oct. 2024) 
+- [Innokentiy Humonen](https://github.com/IHumonen), Equivariant graph neural networks for materials science (Oct. 2024)
+
+
 
 ### References, materials, inspiration
 - [Machine learning](https://github.com/dzisandy/Machine-Learning) by Evgeny Burnaev 

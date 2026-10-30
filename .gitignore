@@ -25,15 +25,6 @@ lectures/*.pptx
 
 seminars/*zip
 seminars/data
-seminars/*.ipynb
-!seminars/seminar01_Python_Crash_Course.ipynb
-!seminars/seminar02*
-!seminars/seminar03*
-!seminars/seminar04*
-!seminars/seminar05*
-!seminars/seminar06*
-!seminars/seminar07*
-!seminars/seminar08*
 
 
 homeworks/misc.ipynb
