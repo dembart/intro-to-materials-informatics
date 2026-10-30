@@ -160,7 +160,7 @@ The task is to carry out a 'small' high throughput screening of solid state elec
 
 ### Course evaluation survey
 <details>
-<summary> First run </summary>
+<summary> 2024 </summary>
 
 In the figure below, you can see how students responded to the questions we asked them regarding the first-run of the course.
 
@@ -175,12 +175,12 @@ In the figure below, you can see how students responded to the questions we aske
 ![Course evaluation](figures/first_run.png)
 
 
-The questionnaire was adapted from [Using Jupyter Tools to Design an Interactive Textbook to Guide Undergraduate Research in Materials Informatics](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00640)
+The questionnaire is inspired by [Using Jupyter Tools to Design an Interactive Textbook to Guide Undergraduate Research in Materials Informatics](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00640)
 
 </details>
 
 <details>
-<summary> Second run </summary>
+<summary> 2025 </summary>
 
 In the figure below, you can see how students responded to the questions we asked them regarding the second-run of the course.
 
@@ -197,7 +197,30 @@ In the figure below, you can see how students responded to the questions we aske
 ![Course evaluation](figures/second_run.png)
 
 
-The questionnaire (questions 1-4) was adapted from [Using Jupyter Tools to Design an Interactive Textbook to Guide Undergraduate Research in Materials Informatics](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00640)
+The questionnaire (questions 1-4) is inspired by[Using Jupyter Tools to Design an Interactive Textbook to Guide Undergraduate Research in Materials Informatics](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00640)
+
+</details>
+
+
+</details>
+
+<details>
+<summary> 2026</summary>
+
+In the figure below, you can see how students responded to the questions we asked them regarding the second-run of the course.
+
+- Question #1. Please rank on a 7-point scale (7 being the highest) the degree to which you think you achieved the learning outcome "Apply python libraries and data science tools to solve materials science problems"
+
+- Question #2. Please rank on a 7-point scale (7 being the highest) the degree to which you think you achieved the learning outcome "Critically evaluate materials informatics literature"
+
+- Question #3. Please rank on a 7-point scale (7 being the highest) the degree to which you think you achieved the learning outcome "Collect, generate and analyse materials science datasets, including identification of structure-property relationships"
+
+- Question #4. Please rank on a 7-point scale (7 being the highest) the degree to which you agree with the following statement "Assignments completed with the help of artificial intelligence tools do not contribute to my understanding of the subject."
+
+![Course evaluation](figures/third_run.png)
+
+
+The questionnaire (questions 1-3) is inspired by [Using Jupyter Tools to Design an Interactive Textbook to Guide Undergraduate Research in Materials Informatics](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00640). 
 
 </details>
 
